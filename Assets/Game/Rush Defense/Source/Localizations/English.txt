@@ -1,0 +1,77 @@
+levelname0 = level 1
+levelname1 = level 2
+levelname2 = level 3 
+levelname3 = level 4 
+levelname4 = level 5 
+levelname5 = level 6 
+
+
+btnYes = yes
+btnNo = no
+btnCancel = cancel
+btnBuy = buy coin
+btnClose = CLOSE
+btnTitle = Title
+btnRetry = Retry
+btnStart = Start Game
+btnReview = Rate & Review
+btnMore = More Game
+btnContinue = Cointinue
+levelScore = Total Score: 
+startTip = Clear all progress and start a new game?
+
+
+
+totalBuild = Total Built: 
+timeUsed = Time Used: 
+totalKilled = Total Killed: 
+unitScore = Unit Score: 
+totalScore = Total Score: 
+bonus = Bonus: 
+btnResume = Resume
+btnRestart = Restart
+btnMainMenu = Main Menu
+btnSelectLevel = Select Level
+btnTutorial = Tutorial
+Base = Base
+menu = MENU
+populationExceed = Population Exceeded
+willUnlock = This will be unlock at level
+
+
+tutor0 = Hire a soilder from this bar just by touching the icon.Remember this will cost golds. You can do this only when the icon is light. You earn golds by defeat enemy or just waiting.
+tutor1 = This part means your population limit.\nHere means you can hire 25 soilders and now you already have 1. The population grows up gradually during the game.
+tutor2 = Look at these 2 progress bars. Your mission is to keep your base not to be destoryed by the zombies. And,try to push as many units as you can to the enemy base.When the purple bar drains,you win.
+tutor3 = Rages,accumulates automatically during the game.This power can be used to call some 'SUPER ATTACK'.Which is really amazing.Try it when  collected enough.\n(Your can see tutorials from menu button.)
+
+Next = Next
+Prev = Prev
+Play = Play
+purchaseTip = You can get crystal to upgrade by win any level again.
+
+Health = Health
+Damage = Damage
+Speed = Speed
+
+NextLevel = Next Level
+FREEEXP = FREE EXP
+
+videoRewardTip = Would you  like to watch a video\nand get 2 crystals?
+adsNotReady = Oops,Video not ready yet.\nTry again later.
+
+price0 = $0.99 (No Ads)
+price1 = $1.99 (No Ads)
+price2 = $2.99 (No Ads)
+price3 = $3.99 (No Ads)
+superSupport = super support
+itemShop = ITEM SHOP
+SHOP = SHOP
+
+askSupport = Use a supper support??
+supportRule = Using a super support will add 2000 golds and 2000 rage immidiently.
+NoSupport = Oops.No super support left?
+UseSupport = Using a super support will add 2000 golds and 2000 rage immidiently.\nGet some from the shop now??
+enemy = enemy
+
+missionAcc = Mission Accomplished
+missionFail = Mission Failed

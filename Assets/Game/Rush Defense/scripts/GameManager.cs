@@ -325,7 +325,9 @@ public class GameManager {
 			Social.ShowLeaderboardUI();
 		}
 	}
-	//ads
+	
+    
+    //ads
 	void initAds(){
 
 		hideBanner (true);
@@ -346,26 +348,26 @@ public class GameManager {
 	public void hideBanner(bool isHidden){
 	}
 	public void showBanner(){
-		if(GameData.isAds){
-			float tradio = (float)Screen.currentResolution.width / (float)Screen.currentResolution.height;
-		}
+		// if(GameData.isAds){
+		// 	float tradio = (float)Screen.currentResolution.width / (float)Screen.currentResolution.height;
+		// }
 	}
 
 
 	public void CacheInterestial(){
-		if (GameData.isAds) {
-			Chartboost.cacheInterstitial(CBLocation.Default);
-		}
+		// if (GameData.isAds) {
+		// 	Chartboost.cacheInterstitial(CBLocation.Default);
+		// }
 	}
 
 	public void ShowInterestitial(){
-		if (GameData.isAds) {
-			Chartboost.showInterstitial(CBLocation.Default);		
-		}
+		// if (GameData.isAds) {
+		// 	Chartboost.showInterstitial(CBLocation.Default);		
+		// }
 	}
 
 	public void CacheVideo(){
-		Chartboost.cacheRewardedVideo(CBLocation.Default);
+		// Chartboost.cacheRewardedVideo(CBLocation.Default);
 	}
 
 	//chartboost

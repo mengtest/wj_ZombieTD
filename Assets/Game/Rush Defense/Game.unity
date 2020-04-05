@@ -6594,6 +6594,83 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &389622762
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 389622765}
+  - component: {fileID: 389622764}
+  - component: {fileID: 389622763}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &389622763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 389622762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: New Text
+--- !u!222 &389622764
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 389622762}
+  m_CullTransparentMesh: 0
+--- !u!224 &389622765
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 389622762}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1551599892}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &393828036
 GameObject:
   m_ObjectHideFlags: 0
@@ -14258,6 +14335,84 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 861589439}
   m_CullTransparentMesh: 0
+--- !u!1 &864505942
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 864505945}
+  - component: {fileID: 864505944}
+  - component: {fileID: 864505943}
+  m_Layer: 0
+  m_Name: ADmanager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &864505943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 864505942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4541444f0b0712841b86a1446ebf616d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  httpGetJsonIns: {fileID: 0}
+  readJsonSetIdIns: {fileID: 0}
+--- !u!114 &864505944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 864505942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4b7b3c2eb6118847af84b91e8e62121, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  information: {fileID: 389622763}
+  m_IsAutoAD: 1
+  m_NannerIdIOS: 900546687
+  m_NannerIdAndroid: 901121423
+  m_IntersititialIdIOS: 900546829
+  m_IntersititialIdAndroid: 901121435
+  m_RewardIdIOS: 900546826
+  m_RewardIdAndroid: 901121430
+  m_ExpressRewardIdIOS: 945124051
+  m_ExpressRewardIdAndroid: 901121543
+  m_FullIdIOS: 900546299
+  m_FullIdAndroid: 901121375
+  m_ExpressFullIdIOS: 945123958
+  m_ExpressFullIdAndroid: 901121516
+  m_ExpressBannerIdIOS: 945124050
+  m_ExpressBannerIdAndroid: 901121246
+  m_ExpressInterstitialIdIOS: 900546270
+  m_ExpressInterstitialIdAndroid: 901121133
+  m_ExpressFeedIdIOS: 900546131
+  m_ExpressFeedIdAndroid: 901121253
+--- !u!4 &864505945
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 864505942}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.88596, y: 0.8191221, z: 0.048277516}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &876207660
 GameObject:
   m_ObjectHideFlags: 0
@@ -22505,6 +22660,7 @@ RectTransform:
   - {fileID: 586893968}
   - {fileID: 1495737017}
   - {fileID: 332085625}
+  - {fileID: 389622765}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -29400,10 +29556,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a7d12090e24ee54d983a019c7087fe2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isRight: 1
-  offsetX: -0.2
 --- !u!1 &1924308837
 GameObject:
   m_ObjectHideFlags: 0

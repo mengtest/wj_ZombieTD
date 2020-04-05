@@ -44,7 +44,7 @@ public class TestGenerator : MonoBehaviour {
 		GameManager.getInstance ().CacheVideo();
 		if (SceneManager.GetActiveScene().name == "Game") {
 			GameManager.getInstance ().playMusic ("bgmusic", true);
-			GameManager.getInstance().showBanner();
+			// GameManager.getInstance().showBanner();
 			GameManager.getInstance ().hideBanner (false);
 		} else if (SceneManager.GetActiveScene().name == "MainMenu") {
 			GameManager.getInstance ().playMusic ("bgsound");
@@ -193,7 +193,10 @@ public class TestGenerator : MonoBehaviour {
 			GameData.getInstance().levelPassed++;
 			PlayerPrefs.SetInt ("levelPassed", GameData.getInstance().levelPassed);
 		}
-		GameManager.getInstance ().ShowInterestitial ();
+        //google广告
+		// GameManager.getInstance ().ShowInterestitial ();
+        //播放穿山甲广告
+GameObject.Find("ADmanager").GetComponent<Example>().MyLoadAD();
 	}
 	
 	public void gameFailed(){

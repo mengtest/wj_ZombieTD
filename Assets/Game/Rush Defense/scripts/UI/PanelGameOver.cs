@@ -18,6 +18,9 @@ public class PanelGameOver : MonoBehaviour {
 	}
 	
 	public void OnClick(GameObject g){
+                //播放穿山甲广告
+        GameObject.Find("ADmanager").GetComponent<Example>().MyLoadAD();
+        
 		switch (g.name) {
 		case "btnleft":
 			panelUpgrade.SetActive(true);

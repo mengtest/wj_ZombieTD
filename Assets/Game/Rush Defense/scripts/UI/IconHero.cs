@@ -134,6 +134,9 @@ public class IconHero : MonoBehaviour {
 	public GameObject PanelConfirmSupport;
 	public void touchme(){
 
+        //播放穿山甲广告
+        // GameObject.Find("ADmanager").GetComponent<Example>().MyLoadAD();
+
 		bool canHire = true;
 		switch (name) {
 		case "h1":

@@ -18,9 +18,9 @@ public final class UnionApplication extends Application {
         super.onCreate();
 
         TTAdConfig config = new TTAdConfig.Builder()
-            .appId("5001121")
+            .appId("5063966")
             .useTextureView(false) //使用TextureView控件播放视频,默认为SurfaceView,当有SurfaceView冲突的场景，可以使用TextureView
-            .appName("菜鸟钢琴_android")
+            .appName("无限生化_android")
             .titleBarTheme(TTAdConstant.TITLE_BAR_THEME_DARK)
             .allowShowNotify(true) //是否允许sdk展示通知栏提示
             .allowShowPageWhenScreenLock(true) //是否在锁屏场景支持展示广告落地页

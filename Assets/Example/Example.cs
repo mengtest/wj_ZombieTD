@@ -61,10 +61,10 @@ public sealed class Example : MonoBehaviour {
     public string m_IntersititialIdAndroid = "901121435";
     /// <summary>奖励ios,android</summary>
     public string m_RewardIdIOS = "900546826";
-    public string m_RewardIdAndroid = "901121430";
+    public string m_RewardIdAndroid = "945162236";
     /// <summary>精准奖励ios,android</summary>
     public string m_ExpressRewardIdIOS = "945124051";
-    public string m_ExpressRewardIdAndroid = "901121543";
+    public string m_ExpressRewardIdAndroid = "945162236";
     [Header ("全屏横幅ios,android:")]
     /// <summary>全屏横幅ios,android</summary>
     public string m_FullIdIOS = "900546299";
